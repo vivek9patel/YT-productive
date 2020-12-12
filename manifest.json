@@ -1,0 +1,28 @@
+{
+    "name": "yt-productive",
+    "version": "1.0",
+    "description": "Don't get distracted by other youtube videos & recommended videos, while you are being productive!",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": { 
+      "16": "icons8-hard-working-16.png",
+      "48": "icons8-hard-working-48.png",
+     "128": "icons8-hard-working-100.png" 
+    },
+    "author":"vivek9patel",
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Be Productive!"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+      ]
+}
