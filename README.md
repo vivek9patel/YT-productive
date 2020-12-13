@@ -2,13 +2,13 @@
 
 ## About
 
-- This extension blocks all the recommended videos from your youtube page so that you can't be distracted by some other interesting videos when you are studing from youtube.
+- Intresting videos distracts you while you are trying to study from YouTube. YT-productive extension helps you by blocking all recommended videos. Be productive while you are working!
 
 ## How it Works
 
 - Open YouTube page:
 
-  - Click the extension button or
+  - Click the extension button and
   - Click the check box of the extension popup
 
 - Things you _can_ do while you are in _productive mode_ :
@@ -21,6 +21,13 @@
   - Can't open recommended Videos
   - Can't read any comments
   - Can't go to any other sections like (gaming, music, trending, etc.)
+
+## Screen Shots
+
+![youtube-homepage](screenshots/ss0.png)
+![youtube-homepage](screenshots/ss1.png)
+![youtube-homepage](screenshots/ss2.png)
+![youtube-homepage](screenshots/ss3.png)
 
 ## How to install
 
