@@ -25,16 +25,16 @@
 ## Screen Shots
 
 <div style="margin-bottom:20px">
-  <img src="screenshots/ss0.png" alt="youtube-homepage" width="400"/>
+  <img src="screenshots/ss0.png" alt="youtube-homepage" width="500"/>
 </div>
 <div style="margin-bottom:20px">
-  <img src="screenshots/ss1.png" alt="search-results" width="400"/>
+  <img src="screenshots/ss1.png" alt="search-results" width="500"/>
 </div>
 <div style="margin-bottom:20px">
-  <img src="screenshots/ss2.png" alt="video-playing" width="400"/>
+  <img src="screenshots/ss2.png" alt="video-playing" width="500"/>
 </div>
 <div style="margin-bottom:20px">
-  <img src="screenshots/ss3.png" alt="comments & recommendation section" width="400"/>
+  <img src="screenshots/ss3.png" alt="comments & recommendation section" width="500"/>
 </div>
 
 ## How to install
