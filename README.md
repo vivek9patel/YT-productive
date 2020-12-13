@@ -2,7 +2,7 @@
 
 ## About
 
-- Intresting videos distracts you while you are trying to study from YouTube. YT-productive extension helps you by blocking all recommended videos. Be productive while you are working!
+- Interesting videos distracts you while you are trying to study from YouTube. YT-productive extension helps you by blocking all recommended videos. Be productive while you are working!
 
 ## How it Works
 
@@ -24,10 +24,18 @@
 
 ## Screen Shots
 
-![youtube-homepage](screenshots/ss0.png)
-![youtube-homepage](screenshots/ss1.png)
-![youtube-homepage](screenshots/ss2.png)
-![youtube-homepage](screenshots/ss3.png)
+<div style="margin-bottom:20px">
+  <img src="screenshots/ss0.png" alt="youtube-homepage" width="400"/>
+</div>
+<div style="margin-bottom:20px">
+  <img src="screenshots/ss1.png" alt="search-results" width="400"/>
+</div>
+<div style="margin-bottom:20px">
+  <img src="screenshots/ss2.png" alt="video-playing" width="400"/>
+</div>
+<div style="margin-bottom:20px">
+  <img src="screenshots/ss3.png" alt="comments & recommendation section" width="400"/>
+</div>
 
 ## How to install
 
