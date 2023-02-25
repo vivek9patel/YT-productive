@@ -1,5 +1,7 @@
 var mainSection = document.getElementsByTagName("ytd-rich-item-renderer");
 var videos = document.getElementsByTagName("ytd-rich-grid-media");
+var shorts = document.getElementsByTagName("ytd-rich-grid-slim-media");
+var posts = document.getElementsByTagName("ytd-post-renderer");
 var sideMenu = document.getElementsByTagName("ytd-guide-section-renderer");
 var sideMenuLinks = document.getElementsByTagName("ytd-guide-entry-renderer");
 var sideRecommendedSection = document.getElementsByTagName(
@@ -17,6 +19,19 @@ var hideAllVideos = function () {
     videos[i].style.textDecoration = "none";
     videos[i].style.filter = "blur(5px)";
   }
+
+  for (var i = 0; i < shorts.length; i++) {
+    shorts[i].style.pointerEvents = "none";
+    shorts[i].style.textDecoration = "none";
+    shorts[i].style.filter = "blur(5px)";
+  }
+
+  for (var i = 0; i < posts.length; i++) {
+    posts[i].style.pointerEvents = "none";
+    posts[i].style.textDecoration = "none";
+    posts[i].style.filter = "blur(5px)";
+  }
+
   /* side recommended section */
   for (var i = 0; i < sideRecommendedSection.length; i++) {
     sideRecommendedSection[i].style.pointerEvents = "none";
@@ -65,6 +80,18 @@ var productiveModeOff = function () {
     videos[i].style.pointerEvents = "auto";
     videos[i].style.textDecoration = "initial";
     videos[i].style.filter = "blur(0px)";
+  }
+  
+  for (var i = 0; i < shorts.length; i++) {
+    shorts[i].style.pointerEvents = "auto";
+    shorts[i].style.textDecoration = "initial";
+    shorts[i].style.filter = "blur(0px)";
+  }
+
+  for (var i = 0; i < posts.length; i++) {
+    posts[i].style.pointerEvents = "auto";
+    posts[i].style.textDecoration = "initial";
+    posts[i].style.filter = "blur(0px)";
   }
 
   for (var i = 0; i < sideMenu.length; i++) {
