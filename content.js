@@ -157,7 +157,6 @@ var productiveModeOff = function () {
     shortsVideo[i].style.filter = "blur(0px)";
     let video = shortsVideo[i].getElementsByTagName("video");
     if (video.length>0) {
-      video[0].pause();
       video[0].removeAttribute("onplay");
     }
   }
