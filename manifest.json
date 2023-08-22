@@ -2,10 +2,9 @@
     "name": "yt-productive",
     "version": "1.0",
     "description": "Don't get distracted by other youtube videos & recommended videos, while you are being productive!",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+      "service_worker": "background.js"
     },
     "icons": { 
       "16": "icons8-hard-working-16.png",
@@ -17,7 +16,7 @@
       "js": ["content.js"],
       "matches": ["https://www.youtube.com/*"]
     }],
-    "browser_action": {
+    "action": {
       "default_popup": "popup.html",
       "default_title": "Be Productive!"
     },
